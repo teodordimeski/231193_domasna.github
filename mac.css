@@ -1,0 +1,111 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+}
+img[src='Apple_logo_grey.svg.png']{
+    height: 20px;
+    width: 20px;
+}
+header img{
+    float: left;
+    margin-left: 100px;
+}
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav li {
+    margin: 0 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+section.product-page {
+    padding: 20px;
+    background-color: white;
+    margin: 20px auto;
+    max-width: 800px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+section h2 {
+    margin-top: 0;
+    text-align: center;
+}
+
+section img {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.product-details {
+    text-align: left;
+}
+
+.product-details h3 {
+    margin-top: 20px;
+}
+
+.product-details ul {
+    list-style: disc;
+    padding-left: 20px;
+}
+
+.product-details table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.product-details th, .product-details td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.product-details th {
+    background-color: #f2f2f2;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    bottom: 0;
+    width: 100%;
+}
+nav li:hover a{
+    color: lightblue;
+}
+footer p {
+    margin: 0;
+}
+img[src='images/Apple_logo_grey.svg.png']{
+    height: 20px;
+    width: 20px;
+}
+header img{
+    float: left;
+    margin-left: 100px;
+
+}
